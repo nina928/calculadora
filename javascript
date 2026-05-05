@@ -10,11 +10,9 @@ function handleInput(value) {
         display.innerText = '0';
     } else if (value === '=') {
         try {
-            display.innerText = eval(
-                display.innerText
+            display.innerText = eval(display.innerText
                     .replace('×', '*')
-                    .replace('÷', '/')
-            );
+                    .replace('÷', '/'));
         } catch {
             display.innerText = 'Erro';
         }
