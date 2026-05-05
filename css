@@ -81,10 +81,9 @@ button:hover {
     button {
         padding: 15px;
         font-size: 1rem;
+   }
 
-    }
-
-    .display {
+   .display {
         font-size: 1.5rem;
     }
 }
